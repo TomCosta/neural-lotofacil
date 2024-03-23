@@ -66,13 +66,13 @@ Os sorteios são realizados de segunda a sábado, sempre às 20h.
    * [Contribuição](##Contribuição)
 <!--te-->
 
-## Instalação do interpretador Python
+## Instalação do interpretador Python em Windows
 
 O projeto utiliza o Python 3 na versão v3.8.2, e para melhor compatibilidade é recomendado que a versão seja mantida.
 
 [Download - Python 3 v3.8.2](https://www.python.org/downloads/release/python-382/)  
 
-## Criação do ambiente virtual Windows
+## Criação do ambiente virtual
 
 Após a instalação do interpretador, versão do projeto, atualize o PIP (gerenciador de pacotes). Para tal, abrar o Prompt de comando ou o PowerShell, no caso do Windows, por exemplo, e execute o camando abaixo. Todos os comandos relacionados ao Python, a partir daqui, serão realizados utilizando o PowerShell do Windows.
 
@@ -226,7 +226,7 @@ Para desativar o ambiente virtual:
 ```
    deactivate
 ```
---------------------------------------------
+
 Criar mresultados e combinações
 
 1. Para gerar o arquivo de resultados:
@@ -247,7 +247,7 @@ Rodar o projeto, execute o comando abaixo no diretório raíz do projeto:
 python3 ./jogar.py
 ```
 #
-
+--------------------------------------------
 ### Dúvidas, bugs e sugestões
 
 Em casos de dúvida, bugs ou queria propror uma melhoria abra uma Issue. Vamos aprender juntos e desenvolver novas soluções.
