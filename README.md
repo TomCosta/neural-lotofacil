@@ -15,6 +15,70 @@ Jogando na Lotofácil utilizando rede neural.
 - Keras  
 - Scikit-learn
 
+# 
+# MacOsx
+Use brew para [instalar a linguagem Python 3](https://python.org.br/instalacao-mac/) no seu Mac. Após a instalação:
+```
+   python3 -m pip install --upgrade pip
+```
+```
+   python3 -m venv virtualLoto
+```
+```
+   cd virtualLoto
+```
+```
+   git init
+```
+```
+   git clone git@github.com:TomCosta/neural-lotofacil.git
+```
+```
+   cd neural-lotofacil
+```
+```
+   pip install -r requirements.txt   
+```
+```
+   pip install --upgrade pip 
+```
+```
+   pip install tensorflow
+```
+```
+   pip install openpyxl
+```
+
+Para ativar o ambiente virtual:
+```
+   source ./bin/activate
+```
+Para desativar o ambiente virtual:
+```
+   deactivate
+```
+
+Criar mresultados e combinações
+
+1. Para gerar o arquivo de resultados:
+
+    ```
+    python3 ./dados/scrapping_resultados.py
+    ```
+
+2. Para gerar o arquivo de combinações: antes remova o arquivo CSV, que está no diretório combinacoes.
+
+    ```
+    python3 ./dados/gerar_combinacoes.py
+    ```
+
+Rodar o projeto, execute o comando abaixo no diretório raíz do projeto:
+
+```
+python3 ./jogar.py
+```
+#
+
 ### FUNCIONALIDADES  
 
 - Análise de frequência das dezenas sorteadas por concurso  
@@ -185,74 +249,12 @@ Se todos os passos foram realizados e o ambiente está ativo, agora o projeto es
 ```
 python .\jogar.py
 ```
-# 
-# MacOsx
-```
-   python3 -m pip install --upgrade pip
-```
-```
-   python3 -m venv virtualLoto
-```
-```
-   cd virtualLoto
-```
-```
-   git init
-```
-```
-   git clone git@github.com:TomCosta/neural-lotofacil.git
-```
-```
-   cd neural-lotofacil
-```
-```
-   pip install -r requirements.txt   
-```
-```
-   pip install --upgrade pip 
-```
-```
-   pip install tensorflow
-```
-```
-   pip install openpyxl
-```
 
-Para ativar o ambiente virtual:
-```
-   source ./bin/activate
-```
-Para desativar o ambiente virtual:
-```
-   deactivate
-```
-
-Criar mresultados e combinações
-
-1. Para gerar o arquivo de resultados:
-
-    ```
-    python3 ./dados/scrapping_resultados.py
-    ```
-
-2. Para gerar o arquivo de combinações: antes remova o arquivo CSV, que está no diretório combinacoes.
-
-    ```
-    python3 ./dados/gerar_combinacoes.py
-    ```
-
-Rodar o projeto, execute o comando abaixo no diretório raíz do projeto:
-
-```
-python3 ./jogar.py
-```
-#
---------------------------------------------
 ### Dúvidas, bugs e sugestões
 
 Em casos de dúvida, bugs ou queria propror uma melhoria abra uma Issue. Vamos aprender juntos e desenvolver novas soluções.
 
 ## Contribuição
 
-Sinta-se livre para contrituir com o projeto.
-##### Se gostou deixe a sua estrela ⭐
+Sinta-se a vontade para contrituir para este projeto.
+##### ⭐ Se gostou deixe a sua estrela. ⭐
